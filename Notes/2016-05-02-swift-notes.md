@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Swift学习笔记
+title: Swift Learning Notes
 ---
 
 # Swift Learning Notes
@@ -43,3 +43,47 @@ In Swift, this statement is not valid. Using an assignment operator (=) in a con
 ### Spaces are optional in conditional and assignment statements
 For both conditional (if and while) and assignment (=) statements, the white spaces are optional.
 
+### Powerful Print() function
+>Official Definition:Writes the textual representations of items, separated by separator and terminated by terminator, into the standard output.
+
+>The textual representations are obtained for each item via the expression String(item).
+
+Prior to Swift 2, we had two separate print functions: print() and println(). Now both of these functions have been combined into the single print() function.
+
+There are two ways to use print() function:
+
+- We can include the value of variables and/or constants using a special sequence of characters, \\( )
+- by separating the values within the print() function with commas
+   
+```swifty
+var name = "Jon"
+var language = "Swift"
+var message1 = " Welcome to the wonderful world of "
+var message2 = "\(name) Welcome to the wonderful world of \(language)!"
+
+print(name, message1, language, "!")
+print(message2)
+```
+
+The usage for **seperator** and **terminator** parameters:
+
+
+```swifty
+var name1 = "Jon"
+var name2 = "Kim"
+var name3 = "Kailey"
+var name4 = "Kara"
+print(name1, name2, name3, name4, separator:", ",terminator:"")
+```
+
+The usage for **toStream** parameter:
+
+```
+var name1 = "Jon"
+var name2 = "Kim"
+var name3 = "Kailey"
+var name4 = "Kara"
+var line = ""
+
+print(name1, name2, name3, name4, separator:", ",terminator:"", toStream:&line)
+```
