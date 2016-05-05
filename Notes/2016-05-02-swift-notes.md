@@ -87,3 +87,27 @@ var line = ""
 
 print(name1, name2, name3, name4, separator:", ",terminator:"", toStream:&line)
 ```
+### Strings and Characters
+
+- A *string* is a series of characters
+- Swift has the ***String*** type to represent strings
+- *String* can be accessed in various way,including as a collection of *Character* values
+- Swift's *String* and *Character* types privode a fast,Unicode-compliant way to work with text in your code,Swift's *String* type is a fast,modern string implementation
+
+>Note
+
+>Swift’s String type is bridged with Foundation’s NSString class. If you are working with the Foundation framework in Cocoa, the entire NSString API is available to call on any String value you create when type cast to NSString, as described in AnyObject. You can also use a String value with any API that requires an NSString instance.
+
+
+#### String Literals
+
+a string iteral is a fixed sequence of textual characters that must be surrounded by a pair of *double quotes* (**""**)
+
+```
+Use a string literal as an initial value for a constant or variable:
+
+let someString = "Some string literal value"
+```
+
+#### Initializing an Empty String
+
