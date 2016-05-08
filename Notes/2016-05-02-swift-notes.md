@@ -110,4 +110,47 @@ let someString = "Some string literal value"
 ```
 
 #### Initializing an Empty String
+Intitialize syntax:
+
+```
+var emptyString = "" // empty string literal
+var anotherEmptyString = String() // initializer syntax
+// these two strings are both empty, and are equivalent to each other
+```
+
+How to decide whether a **String** is empty:
+
+```
+if emptyString.isEmpty {
+print("Nothing to see here")
+}
+// Prints "Nothing to see here"
+```
+
+#### Constants and Variables
+Constants and variables associate an identi er (such as myName or currentTemperature) with a value of a particular type (such as String or Int), where the identi er can be used to retrieve the value
+-  a variable can be updated or changed
+-  a constant cannot be changed once a value is assigned to it
+
+>The use of constants is encouraged in Swift. If we do not expect or want the value to change, we should declare it as a constant. This adds a very important safety constraint to our code that ensures that the value never changes.
+
+You can use almost any character in the identi er of a variable or constant (even Unicode characters); however, there are a few rules that you must follow:
+- An identifier must not contain any whitespace
+- An identifier must not contain any mathematical symbols
+- An identifier must not contain any arrows
+- An identifier must not contain private use or invalid Unicode characters
+- An identifier must not contain line- or box-drawing characters
+- An identifier must not start with a number, but they can contain numbers
+- If you use a Swift keyword as an identifier, surround it with back ticks
+
+#### Type safety
+Swift is a type-safe language. In a type-safe language, we are required to be clear
+on the types of values we store in a variable.
+
+#### Numberic types
+Swift contains many of the standard numeric types that are suitable for storing various integer and  oating-point values.
+
+#### Swift REPL
+You can set up and run a REPL — read, eval, print, loop — in order to write interactive Swift code in the command line. To enable this capability, open the Terminal app from your /Applications/Utilities folder and type *xcrun swift* (or *lldb --repl*) at the command prompt and press return.
+
 
