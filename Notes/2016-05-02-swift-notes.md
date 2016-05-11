@@ -90,6 +90,7 @@ print(name1, name2, name3, name4, separator:", ",terminator:"", toStream:&line)
 ### Strings and Characters
 
 - A *string* is a series of characters
+- A string is an ordered collection of characters, such as Hello or Swift. 
 - Swift has the ***String*** type to represent strings
 - *String* can be accessed in various way,including as a collection of *Character* values
 - Swift's *String* and *Character* types privode a fast,Unicode-compliant way to work with text in your code,Swift's *String* type is a fast,modern string implementation
