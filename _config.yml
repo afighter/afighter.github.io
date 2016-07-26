@@ -1,0 +1,23 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+#relative_permalinks: true
+
+# Setup
+title:               九十里
+tagline:             '行百里者半九十'
+description:         '我在故我思，我思故我在'
+url:                 http://afighter.github.io
+baseurl:             ''
+paginate:            5
+gems: [jekyll-paginate]
+
+# About/contact
+author:
+  name:              SeanRen
+  url:               https://twitter.com/afighter
+  email:             nintymiles@icloud.com
+
+# Custom vars
+version:             1.0.0
