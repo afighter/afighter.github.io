@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Learning Notes - A Beautiful Poet
+title:  Learning Notes - A Beautiful Poem
 ---
-## A Beautiful Poet
+## A Beautiful Poem
 ![](/assets/poets/IMG_1956.JPG) 
 ![](/assets/poets/IMG_1944.JPG)
 ![](/assets/poets/IMG_1945.JPG) 
